@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CnIOApM8DrVnLBODLtWCZGdheK5s/LQjAlbfBRlVYoM=",
+  "Source": "SimpleWebAuth",
+  "BasePath": "_content/SimpleWebAuth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
