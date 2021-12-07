@@ -20,6 +20,18 @@ Know the difference between
  * An input binding is the data that your function receives. An output binding is the data that your function sends
 
 # Durable Functions
+* Originally Functions were Stateless. by default they still are
+* Durable functions allow for statefull programming
+* Persists across time - has to be manually cleared
+* Durable ( Statefull ) entitites
+* Durable Orchestrations
+* Applications patterns 
+    * Chaining
+    * Fanning
+    * Async
+    * Monitoring
+    * Human interaction
+    * Aggregator
 
 
 

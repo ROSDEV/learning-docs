@@ -1,3 +1,5 @@
+[<- Overview](../README.MD)
+
 # Overview of Azure Cli Commands 
 
 Create AZ Group<br>
@@ -37,4 +39,32 @@ az webapp create \
     --name $myAppName \
     --plan $myPlan \
     --resource-group $myGroup
+```
+
+Create storage account
+```
+$storageName=storage_account_01
+$myResourcegroup=resource_group_01
+$myLocation=centralus
+
+az storage account create \
+--name $storageName
+--resource-group $myResourcegroup
+--location $myLocation
+--sku Standard_LRS
+```
+
+Create function App
+```
+$myLocation=centralus
+$storageName=storage_account_01
+
+az functionapp create \
+--consumption-plan-location $myLocation \
+--name myFunctionAppName \
+--resource-group $myResourcegroup \
+--runtime dotnet \
+--storage-account $storageName \
+--functions-version 3 
+
 ```
